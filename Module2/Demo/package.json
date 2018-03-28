@@ -1,15 +1,17 @@
 {
-  "name": "code",
+  "name": "mod2",
   "version": "1.0.0",
-  "description": "",
+  "description": "package.json for mod 2\u001b[D\u001b[Dule",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "mocha './test/**/*.spec.js'"
+    "test": "mocha ./test/**/*.spec.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chai": "3.5.0",
-    "mocha": "3.2.0"
+    "mocha": "^3.4.2"
   }
 }
